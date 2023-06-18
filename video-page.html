@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Page</title>
+  <style>
+    #video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #go-back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #dff3fc;
+      color: black;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #go-back-button:hover {
+      background-color: #0056b3;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video style ="height: 60%; width: auto;" src="assets/img/portfolio/circuit.mp4" controls autoplay></video>
+    <br/>
+    <button id="go-back-button" onclick="goBack()">Go Back</button>
+  </div>
+
+  <script>
+    function goBack() {
+        window.history.back();
+    }
+  </script>
+</body>
+</html>
