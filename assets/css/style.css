@@ -136,6 +136,9 @@ h6 {
 .container{
   background-color:#cdd6dd;
 }
+.footercontainer{
+  background-color: #27464e;
+}
 .container-fluid {
   padding-left: 30px;
   padding-right: 30px;
@@ -1036,18 +1039,20 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background-color: #27464e;
 }
 
 #footer .copyright {
   text-align: center;
+  background-color: #27464e;
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
+  color: white;
+  background-color: #27464e;
 }
 
 @media (max-width: 1199px) {
